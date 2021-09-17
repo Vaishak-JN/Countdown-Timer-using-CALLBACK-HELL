@@ -1,6 +1,6 @@
 //Method 1 
 
-let p=document.getElementsByClassName("container")
+let t=document.getElementsByClassName("container")
 let count=10;
 
 function countdown(num,callback){
@@ -9,9 +9,9 @@ function countdown(num,callback){
             callback(num)
             
         }, 1000);
-        p[0].innerText=num;
+        t[0].innerText=num;
     }else{
-        p[0].innerText="Wish you a good day"
+        t[0].innerText="Wish you a good day"
     }
     
 }
@@ -26,17 +26,17 @@ window.onload=setTimeout(() => {
 
 // Method 2
 
-// let p=document.getElementsByClassName("container")
+// let c=document.getElementsByClassName("container")
 // let count=10;
 
 // function countdown(num,callback){
 //     if(num>0){
 //         callback(num)
 
-//         p[0].innerText=num;
+//         c[0].innerText=num;
 
 //     }else{
-//         p[0].innerText="Wish you a good day"
+//         c[0].innerText="Wish you a good day"
 //     }
     
 // }
