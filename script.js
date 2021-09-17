@@ -5,8 +5,7 @@ let count=10;
 function countdown(num,callback){
     if(num>0){
         setTimeout(() => {
-            callback(num)
-            
+            callback(num)  
         }, 1000);
         p[0].innerText=num;
     }else{
@@ -24,25 +23,25 @@ window.onload=setTimeout(() => {
 
 // Method 2
 
-let p=document.getElementsByClassName("container")
-let count=10;
-function countdown(num,callback){
-    if(num>0){
-        callback(num)
-        p[0].innerText=num;
-    }else{
-        p[0].innerText="Wish you a good day"
-    }   
-}
-function callback(num){
-        setTimeout(() => {
-            num=num-1;
-            countdown(num,callback)
-        }, 1000);
-}
-window.onload=setTimeout(() => {
-    countdown(count,callback)
-}, 1000);
+// let p=document.getElementsByClassName("container")
+// let count=10;
+// function countdown(num,callback){
+//     if(num>0){
+//         callback(num)
+//         p[0].innerText=num;
+//     }else{
+//         p[0].innerText="Wish you a good day"
+//     }   
+// }
+// function callback(num){
+//         setTimeout(() => {
+//             num=num-1;
+//             countdown(num,callback)
+//         }, 1000);
+// }
+// window.onload=setTimeout(() => {
+//     countdown(count,callback)
+// }, 1000);
 
 
 // Method 3
