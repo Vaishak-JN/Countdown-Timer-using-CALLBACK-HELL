@@ -52,7 +52,26 @@ window.onload=setTimeout(() => {
 // }, 1000);
 
 
-// Method 3
+// Method 3 (using promises)
+
+
+// let val=document.getElementsByClassName("container")
+// let count=11;
+
+// const promise= new Promise((resolve,reject)=>{
+//     setInterval(() => {
+//         count=count-1
+//         if(count>0){
+//             resolve("fulfilled");
+//             val[0].innerText=count
+//         }else{
+//             reject("error");
+//             val[0].innerText="Wish you a good day";
+//         }
+//     }, 1000);
+// })
+
+// Method 4
 
 // let p=document.getElementsByClassName("container")
 // function countDown(){
