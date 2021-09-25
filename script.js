@@ -158,7 +158,7 @@ function countDown(){
                                                 p[0].innerText="Happy birthday CHINKUZZ";
                                                 setTimeout(() => {
                                                     p[0].innerText="ചെലവ് എപ്പോൾ തരും?";
-                                                }, 3000);
+                                                }, 4000);
                                             }, 1000);
                                         }, 1000);
                                     }, 1000);
